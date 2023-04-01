@@ -1,0 +1,55 @@
+.menu{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 15%;
+    height: 100vh;
+    background: #282525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    transform: translateX(-100%);
+    z-index: 99;
+}
+.menuActive{
+    z-index: 99;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 15%;
+    height: 100vh;
+    background: #282525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    transform: translateX(0%);
+}
+.menuList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+
+}
+.menuList a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    border-bottom: 3px #867a7a solid;
+    border-radius: 10%;
+}
+.menuBtn{
+    width: 30px;
+    height: 30px;
+    background-color: darkred;
+    border-radius:45%;
+    position: absolute;
+    top:10px;
+    right:-40px;
+    font-size: 20px;
+
+}

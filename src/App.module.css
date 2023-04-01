@@ -1,0 +1,19 @@
+.wrapper{
+    background: #171515;
+    position: relative;
+    overflow-x:hidden;
+}
+.allPage{
+    height: 100vh;
+    transition: 0.5s;
+    position: relative;
+    z-index: 0;
+
+}
+.allPageActive{
+    height: 100vh;
+
+    transition: 0.5s;
+    transform: translateX(15%);
+    z-index: 0;
+}

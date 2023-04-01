@@ -1,0 +1,21 @@
+.wrapperPosts{
+    margin-top: 50px;
+    margin-left: 5%;
+    font-size: 25px;
+
+}
+.wrapperPosts p{
+   margin-bottom: 10px;
+    margin-left: 6%;
+
+}
+.wrapperPosts span{
+    margin-left: 5%;
+    font-size: 15px;
+
+}
+.imgAvat{
+    width: 50px;
+    border-radius: 50%;
+    float:left;
+}
